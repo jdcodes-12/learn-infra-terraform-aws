@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/*
+
+# TF State Files
+*.tfstate
+*.tfstate.*
+
+# CLI Configs
+.terraformrc
+terraform.rc
+
+# TF Variables Files
+terraform.tfvars
+*.auto.tfvars
+
+# Other TF Artifacts
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
